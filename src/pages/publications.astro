@@ -10,7 +10,18 @@ import { publications, type Pub } from '../constant';
 
 
 /* -------- group by year so we can print the right-side label ---------- */
-const byYear = Object.groupBy(publications, (p) => p.year);
+// @ts-ignore
+function groupBy(arr, keyFn) {
+  // @ts-ignore
+  return arr.reduce((acc, item) => {
+    const key = keyFn(item);
+    if (!acc[key]) acc[key] = [];
+    acc[key].push(item);
+    return acc;
+  }, {});
+}
+// @ts-ignore
+const byYear = groupBy(publications, (p) => p.year);
 ---
 
 <BaseLayout
