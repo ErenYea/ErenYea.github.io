@@ -142,7 +142,7 @@ export const experiences = [
         logo: 'https://owais142002.github.io/assets/img/crosswing.jpg',
         position: 'Full Stack Developer (Remote)',
         employmentType: 'Full Time',
-        periods: ['Sep 2022 - Nov 2023'],
+        periods: ['Dec 2022 - Nov 2023'],
         location: '238 Wellington St E Suite 214, Aurora, ON L4G 1J5, Canada (Remote)',
         responsibilities: [
             'I have engineered and deployed sophisticated machine learning algorithms and computer vision systems to tackle contemporary challenges. I created a Scheduler Optimizer that arranges car production schedules according to worker efficiency, streamlining the car manufacturing timeline. Additionally, I developed a RULA Score Detector to promote correct ergonomic practices among workers, thereby boosting safety and productivity. Furthermore, I constructed a comprehensive full-stack platform to consolidate all the Machine Learning models within a unified application.',
