@@ -24,7 +24,7 @@ import Footer from '../layouts/Footer.astro';
         <h2 class="text-2xl font-semibold">News</h2>
 
         <ul class="mt-6 divide-y divide-gray-700/40">
-          {news.map(({ date, text }) => (
+          {news.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).map(({ date, text }) => (
             <li class="flex flex-col gap-2 py-3 md:flex-row md:gap-6">
               <span class="w-32 shrink-0 font-mono text-sm text-gray-400">{date}</span>
               <span class="text-gray-100">{text}</span>
