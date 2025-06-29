@@ -153,7 +153,7 @@ export const experiences = [
         company: 'Profecia Links',
         logo: 'https://owais142002.github.io/assets/img/profecia.png',
         position: 'Junior Software Engineer ',
-        employmentType: 'Full Time',
+        employmentType: 'Part Time',
         periods: ['Apr 2021 - Sep 2022'],
         location: 'Dubai, United Arab Emirates (Remote)',
         responsibilities: [
