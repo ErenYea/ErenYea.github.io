@@ -154,7 +154,7 @@ export const experiences = [
         logo: 'https://owais142002.github.io/assets/img/profecia.png',
         position: 'Junior Software Engineer ',
         employmentType: 'Full Time',
-        periods: ['Dec 2021 - Sep 2022'],
+        periods: ['Apr 2021 - Sep 2022'],
         location: 'Dubai, United Arab Emirates (Remote)',
         responsibilities: [
             'Developed, implemented, and maintained web scrapers in JavaScript for extracting data from various e-commerce websites.',
