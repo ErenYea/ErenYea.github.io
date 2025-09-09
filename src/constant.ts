@@ -64,6 +64,40 @@ export const projects: Project[] = [
             { label: "View Research Paper", href: 'https://arxiv.org/pdf/2411.13205' }
         ],
     },
+    {
+        title: 'SmartScan Billing Assistant',
+        dates: 'May 2024 - Jul 2024',
+        thumbnail: '/smart_scan.webp',
+        description: 'The SmartScan Billing Assistant is a computer vision-based project designed to automate the process of calculating the total bill by detecting products and adding their prices using a camera, similar to a cashier. This project uses the YOLOv8 model for object detection and tracking. This is the MVP of the main project I did for a supermarket where I implemented the SmartScan billing system on more than 20 products.',
+        links: [
+            { label: 'View Project', href: 'https://github.com/ErenYea/SmartScan-Billing-Assistant' },
+        ],
+    },
+    {
+        title: 'Facial Emotion Detection',
+        dates: 'Mar 2024 - May 2024',
+        thumbnail: '/Facial-Emotion-Detection.webp',
+        description: 'Facial Emotion Detection using YOLOv8 is a Flask web application designed to detect facial emotions in real time. Leveraging the power of the YOLOv8 model, this project offers a robust solution for identifying a range of emotions directly from images or webcam feeds.',
+        links: [
+            { label: 'View Project', href: 'https://github.com/ErenYea/Facial-Emotion-Detection' },
+            {
+                label: 'View Demo',
+                href: 'https://github.com/user-attachments/assets/4994b6ab-7dfc-41cc-88d9-b690a8a25bcc'
+            }
+
+        ],
+    },
+    {
+        title: 'Human Sense Ads',
+        dates: 'Jan 2024 - Mar 2024',
+        thumbnail: '/human-sense.jpeg',
+        description: 'Human Sense Ads is a project designed to detect humans, extract their features, and generate personalized messages using a language model (LLM) to grab their attention towards advertisements displayed on a screen.',
+        links: [
+            { label: 'View Project', href: 'https://github.com/ErenYea/Human-Sense-Ads' },
+            { label: 'View Demo', href: 'https://github.com/user-attachments/assets/d3f08d45-3e94-42f3-a3e7-4601874ea0de' },
+        ],
+    }
+
 
 ];
 
