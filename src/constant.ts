@@ -47,7 +47,7 @@ export const projects: Project[] = [
         description:
             'F1GPT is a domain-focused AI assistant built with Next.js and powered by GPT-5 through the AI/ML API. It uses a Retrieval-Augmented Generation (RAG) pipeline that scrapes and indexes authoritative Formula One sources — such as Wikipedia and the official F1 site — into a vector database (DataStax Astra DB). When a user asks a question, the system embeds the query, retrieves the most relevant chunks, and streams a GPT-5 answer enriched with this context. The chatbot is deployed with a sleek Formula One-themed UI, enabling real-time streaming responses. Its technical stack includes Next.js 15, Vercel AI SDK, LangChain text splitters, Puppeteer for scraping, and Astra DB for high-performance similarity search. Value & Use Cases: - Fans can quickly look up race results, driver stats, or rule explanations. - Journalists can explore historical data and technical regulations faster. - Teams & Analysts can leverage a conversational layer over structured F1 data. By combining GPT-5’s reasoning power with RAG, F1GPT reduces hallucinations and delivers trusted, up-to-date answers. This positions it as a unique sports-focused AI assistant, showing how AI can enhance fan engagement and knowledge accessibility in high-data domains like Formula One.',
         links: [
-            { label: 'View Project', href: 'https://github.com/ErenYea/rag-f1gpt-chatbot-nextjs' },
+            { label: 'View Project', href: 'https://github.com/hamzaalikhan822/rag-f1gpt-chatbot-nextjs' },
             { label: 'View Demo', href: 'https://rag-f1gpt-chatbot-nextjs-production.up.railway.app/' },
         ],
     },
@@ -70,7 +70,7 @@ export const projects: Project[] = [
         thumbnail: '/smart_scan.webp',
         description: 'The SmartScan Billing Assistant is a computer vision-based project designed to automate the process of calculating the total bill by detecting products and adding their prices using a camera, similar to a cashier. This project uses the YOLOv8 model for object detection and tracking. This is the MVP of the main project I did for a supermarket where I implemented the SmartScan billing system on more than 20 products.',
         links: [
-            { label: 'View Project', href: 'https://github.com/ErenYea/SmartScan-Billing-Assistant' },
+            { label: 'View Project', href: 'https://github.com/hamzaalikhan822/SmartScan-Billing-Assistant' },
         ],
     },
     {
@@ -79,7 +79,7 @@ export const projects: Project[] = [
         thumbnail: '/Facial-Emotion-Detection.webp',
         description: 'Facial Emotion Detection using YOLOv8 is a Flask web application designed to detect facial emotions in real time. Leveraging the power of the YOLOv8 model, this project offers a robust solution for identifying a range of emotions directly from images or webcam feeds.',
         links: [
-            { label: 'View Project', href: 'https://github.com/ErenYea/Facial-Emotion-Detection' },
+            { label: 'View Project', href: 'https://github.com/hamzaalikhan822/Facial-Emotion-Detection' },
             {
                 label: 'View Demo',
                 href: 'https://github.com/user-attachments/assets/4994b6ab-7dfc-41cc-88d9-b690a8a25bcc'
@@ -93,7 +93,7 @@ export const projects: Project[] = [
         thumbnail: '/human-sense.jpeg',
         description: 'Human Sense Ads is a project designed to detect humans, extract their features, and generate personalized messages using a language model (LLM) to grab their attention towards advertisements displayed on a screen.',
         links: [
-            { label: 'View Project', href: 'https://github.com/ErenYea/Human-Sense-Ads' },
+            { label: 'View Project', href: 'https://github.com/hamzaalikhan822/Human-Sense-Ads' },
             { label: 'View Demo', href: 'https://github.com/user-attachments/assets/d3f08d45-3e94-42f3-a3e7-4601874ea0de' },
         ],
     }
@@ -274,7 +274,7 @@ export const comps: Competition[] = [
         description:
             'F1GPT is a domain-focused AI assistant built with Next.js and powered by GPT-5 through the AI/ML API. It uses a Retrieval-Augmented Generation (RAG) pipeline that scrapes and indexes authoritative Formula One sources — such as Wikipedia and the official F1 site — into a vector database (DataStax Astra DB). When a user asks a question, the system embeds the query, retrieves the most relevant chunks, and streams a GPT-5 answer enriched with this context. The chatbot is deployed with a sleek Formula One-themed UI, enabling real-time streaming responses. Its technical stack includes Next.js 15, Vercel AI SDK, LangChain text splitters, Puppeteer for scraping, and Astra DB for high-performance similarity search. Value & Use Cases: - Fans can quickly look up race results, driver stats, or rule explanations. - Journalists can explore historical data and technical regulations faster. - Teams & Analysts can leverage a conversational layer over structured F1 data. By combining GPT-5’s reasoning power with RAG, F1GPT reduces hallucinations and delivers trusted, up-to-date answers. This positions it as a unique sports-focused AI assistant, showing how AI can enhance fan engagement and knowledge accessibility in high-data domains like Formula One.',
         links: [
-            { label: 'View Project', href: 'https://github.com/ErenYea/rag-f1gpt-chatbot-nextjs' },
+            { label: 'View Project', href: 'https://github.com/hamzaalikhan822/rag-f1gpt-chatbot-nextjs' },
             { label: 'View Submission', href: 'https://lablab.ai/event/co-creating-with-gpt-5/aignitivex/f1gpt-formula-one-ai-chatbot' },
             { label: 'View Demo', href: 'https://rag-f1gpt-chatbot-nextjs-production.up.railway.app/' },
         ],
