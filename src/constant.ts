@@ -41,22 +41,14 @@ export interface Project {
 
 export const projects: Project[] = [
     {
-        title: 'IntelliLift RoboNavigator',
-        status: 'In&nbsp;Progress',
-        thumbnail: 'https://owais142002.github.io/assets/img/robotics_arm.jpg',
+        title: 'AI Chatbot',
+        dates: 'July 2025 - Aug 2025',
+        thumbnail: '/aichatbot.webp',
         description:
-            'A robotics project that integrates a robotic arm mounted on a mobile platform to autonomously detect, navigate towards, and manipulate(lift) objects based on natural-language commands using 6D pose estimation of the object. The project will utilise ROS, Gazebo, ArUco Markers, 6D pose estimator and LLMs.',
-        links: [{ label: 'View Project', href: 'https://github.com/owais142002/IntelliLift-RoboNavigator/' }],
-    },
-    {
-        title: 'Road Object Detection and Tracking with DeepSORT and YOLOv8',
-        dates: 'Jul 2024 - Aug 2024',
-        thumbnail: 'https://owais142002.github.io/assets/img/road-object-detection.jpg',
-        description:
-            'The project is designed to enhance road safety and traffic management by accurately detecting and tracking objects on roads and highways. Uses YOLOv7 and DeepSORT for object detection on BDD100K dataset.',
+            'F1GPT is a domain-focused AI assistant built with Next.js and powered by GPT-5 through the AI/ML API. It uses a Retrieval-Augmented Generation (RAG) pipeline that scrapes and indexes authoritative Formula One sources — such as Wikipedia and the official F1 site — into a vector database (DataStax Astra DB). When a user asks a question, the system embeds the query, retrieves the most relevant chunks, and streams a GPT-5 answer enriched with this context. The chatbot is deployed with a sleek Formula One-themed UI, enabling real-time streaming responses. Its technical stack includes Next.js 15, Vercel AI SDK, LangChain text splitters, Puppeteer for scraping, and Astra DB for high-performance similarity search. Value & Use Cases: - Fans can quickly look up race results, driver stats, or rule explanations. - Journalists can explore historical data and technical regulations faster. - Teams & Analysts can leverage a conversational layer over structured F1 data. By combining GPT-5’s reasoning power with RAG, F1GPT reduces hallucinations and delivers trusted, up-to-date answers. This positions it as a unique sports-focused AI assistant, showing how AI can enhance fan engagement and knowledge accessibility in high-data domains like Formula One.',
         links: [
-            { label: 'View Project', href: 'https://github.com/owais142002/Road-Object-Tracking' },
-            { label: 'View Demo', href: 'https://github.com/user-attachments/assets/28b75fbd-2915-4bde-b23e-5ad19dc6ce17' },
+            { label: 'View Project', href: 'https://github.com/ErenYea/rag-f1gpt-chatbot-nextjs' },
+            { label: 'View Demo', href: 'https://rag-f1gpt-chatbot-nextjs-production.up.railway.app/' },
         ],
     },
     {
@@ -68,19 +60,11 @@ export const projects: Project[] = [
         links: [
             { label: 'View Presentation', href: 'https://docs.google.com/presentation/d/1angaKsRuR_vHHrlyIwOUKt6ev2wqfSnjwKETaQpPNFc/' },
             { label: 'View Project', href: 'https://drive.google.com/drive/folders/1U4Bl81hgEc-5N_hCVpneEVkcrgtJiXAt' },
+            { label: 'View Demonstration', href: 'https://www.youtube.com/shorts/nJrsF2eAPDo' },
+            { label: "View Research Paper", href: 'https://arxiv.org/pdf/2411.13205' }
         ],
     },
-    {
-        title: 'American Sign-Language Detection With YOLO',
-        dates: 'Jun 2024 - Aug 2024',
-        thumbnail: 'https://owais142002.github.io/assets/img/asl.png',
-        description:
-            'This project demonstrates the use of YOLOv8 for detecting American Sign Language (ASL) gestures.',
-        links: [
-            { label: 'View Project', href: 'https://github.com/owais142002/American-Sign-Language-Detection-With-YOLO' },
-            { label: 'View Demo', href: 'https://github.com/user-attachments/assets/6564970b-b950-4be9-8606-b2a5b63e0d39' },
-        ],
-    },
+
 ];
 
 export const navLinks = [
@@ -90,7 +74,7 @@ export const navLinks = [
     { href: '/publications', label: 'Publications' },
     { href: '/projects', label: 'Projects' },
     // { href: '/teaching', label: 'Teaching' },
-    // { href: '/competitions', label: 'Competitions' },
+    { href: '/competitions', label: 'Competitions' },
     { href: 'https://www.hamzaaliportfolio.com/', label: 'Developer Portfolio' },
     { href: 'https://flowcv.com/resume/6v7ig8lbh9e8', label: 'CV' },            // external/static route
 ];
@@ -214,6 +198,16 @@ export interface Pub {
 }
 export const publications: Pub[] = [
     {
+        year: 2025,
+        title: 'Smart Shelf Advertising using Real-Time Product Segmentation and Interaction on Low-Cost Edge',
+        date: 'Jul 2025',
+        thumbnail: 'https://owais142002.github.io/assets/img/publication_preview/rg.png',
+        absUrl: '#',
+        htmlUrl: 'https://www.researchgate.net/publication/394095306_Smart_Shelf_Advertising_using_Real-Time_Product_Segmentation_and_Interaction_on_Low-Cost_Edge_Devices',
+        pdfUrl: 'https://www.researchgate.net/publication/394095306_Smart_Shelf_Advertising_using_Real-Time_Product_Segmentation_and_Interaction_on_Low-Cost_Edge_Devices',
+        abstract: 'This paper presents a comprehensive review of the work "A Dynamic Algorithm for Approximate Flow Computations" by Professor Prabhakar and Professor Viswanathan. The original paper introduces an algorithm that improves the efficiency of reachability analysis in linear dynamical systems by dynamically determining time intervals and using polynomial approximations to maintain a specified error bound. This review summarizes the key contributions, including the use of Bernstein polynomials and error control mechanisms, and critically evaluates the algorithm’s performance, scalability, and limitations. Experimental insights, theoretical underpinnings, and potential directions for future research are discussed to highlight the broader implications of the work in formal verification and control systems.',
+    },
+    {
         year: 2023,
         title: 'An Integrated Approach to Robotic Object Grasping and Manipulation',
         date: 'Aug 2023',
@@ -238,39 +232,17 @@ export interface Competition {
 
 export const comps: Competition[] = [
     {
-        title: 'Reasoning with o1 Hackathon',
-        dates: '4 Oct 2024 - 11 Oct 2024',
-        thumbnail: 'https://owais142002.github.io/assets/img/o1.jpeg',
-        organizer: { name: 'Lablab.ai', href: 'https://lablab.ai/event/strawberry-reasoning-with-o1' },
-        project: 'Paul Graham Life Coach AI App',
+        title: 'Co-Creating with GPT-5',
+        dates: '18 Aug 2025 - 24 Aug 2025',
+        thumbnail: '/aichatbot.webp',
+        organizer: { name: 'Lablab.ai', href: 'https://lablab.ai/event/co-creating-with-gpt-5' },
+        project: 'F1GPT - Formula One AI Chatbot',
         description:
-            ' Paul Graham Life Coach AI App! This app brings the wisdom of Paul Graham—legendary entrepreneur, venture capitalist, and essayist—right to your fingertips. By leveraging AI-powered vector search combined with insights from his iconic essays, the app delivers witty, edgy, and profound advice, just as if Paul Graham himself were guiding you through your toughest challenges. Whether you\'re seeking startup tips or life advice, AI Paul Graham is here to offer sharp, candid responses tailored to your queries',
+            'F1GPT is a domain-focused AI assistant built with Next.js and powered by GPT-5 through the AI/ML API. It uses a Retrieval-Augmented Generation (RAG) pipeline that scrapes and indexes authoritative Formula One sources — such as Wikipedia and the official F1 site — into a vector database (DataStax Astra DB). When a user asks a question, the system embeds the query, retrieves the most relevant chunks, and streams a GPT-5 answer enriched with this context. The chatbot is deployed with a sleek Formula One-themed UI, enabling real-time streaming responses. Its technical stack includes Next.js 15, Vercel AI SDK, LangChain text splitters, Puppeteer for scraping, and Astra DB for high-performance similarity search. Value & Use Cases: - Fans can quickly look up race results, driver stats, or rule explanations. - Journalists can explore historical data and technical regulations faster. - Teams & Analysts can leverage a conversational layer over structured F1 data. By combining GPT-5’s reasoning power with RAG, F1GPT reduces hallucinations and delivers trusted, up-to-date answers. This positions it as a unique sports-focused AI assistant, showing how AI can enhance fan engagement and knowledge accessibility in high-data domains like Formula One.',
         links: [
-            { label: 'View Project', href: 'https://github.com/hasnain3142/Chat-with-Paul-Graham' },
-            { label: 'View Submission', href: 'https://lablab.ai/event/strawberry-reasoning-with-o1/guardians-of-the-galaxy/paul-graham-founder-mode-ai-app' },
-            { label: 'View Demo', href: 'https://ai-paul-graham.streamlit.app/' },
+            { label: 'View Project', href: 'https://github.com/ErenYea/rag-f1gpt-chatbot-nextjs' },
+            { label: 'View Submission', href: 'https://lablab.ai/event/co-creating-with-gpt-5/aignitivex/f1gpt-formula-one-ai-chatbot' },
+            { label: 'View Demo', href: 'https://rag-f1gpt-chatbot-nextjs-production.up.railway.app/' },
         ],
-    },
-    {
-        title: 'Meta Hacker Cup - 2024',
-        dates: 'Sept 2024 - Dec 2024',
-        thumbnail: 'https://owais142002.github.io/assets/img/hacker_cup.jpg',
-        organizer: { name: 'Meta', href: 'https://www.facebook.com/codingcompetitions/hacker-cup' },
-        description:
-            'Hacker Cup is Meta\'s annual open programming competition. Open to participants around the world, we invite you to apply problem-solving and algorithmic coding skills to advance through each year\'s online rounds, win prizes, and have a chance to make it to the global finals and win the grand prize.',
-        links: [{ label: 'View Certificate', href: 'https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/1531595364110767' }],
-    },
-    {
-        title: 'Next Edge Runners Hackathon',
-        dates: '23 Aug 2024 - 25 Aug 2024',
-        thumbnail: 'https://owais142002.github.io/assets/img/next_comp.jpg',
-        organizer: { name: 'Lablab.ai', href: 'https://lablab.ai/event/next2-edge-runners' },
-        project: 'Caduceus',
-        description:
-            'Developed Caduceus, an AI-powered health assistant that enhances decision-making by integrating personal health records and real-time biometrics. Leveraging Generative AI, LLMs (LangChain, OpenAI GPT-4), a SQL database, Django backend, React frontend, and public-health data, Caduceus provides personalized, informed advice for better individual and population-health outcomes.',
-        links: [
-            { label: 'View Project', href: 'https://github.com/AdvancedHueristics/MedAI-Assistant' },
-            { label: 'View Submission', href: 'https://lablab.ai/event/next2-edge-runners/caduceus/caduceus-your-tool-for-your-health' },
-        ],
-    },
+    }
 ];
