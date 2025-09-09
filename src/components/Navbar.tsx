@@ -24,7 +24,7 @@ const Navbar: React.FC<{ page: string }> = ({ page }) => {
                     <a href="mailto:alikhanhamza434@gmail.com" aria-label="Email"><FiMail /></a>
                     <a href="tel:+923161108546" aria-label="Phone"><FiPhoneCall /></a>
                     <a href="https://www.researchgate.net/profile/Hamza-Khan-202" aria-label="ResearchGate"><SiResearchgate /></a>
-                    <a href="https://github.com/ErenYea" aria-label="GitHub"><FiGithub /></a>
+                    <a href="https://github.com/hamzaalikhan822" aria-label="GitHub"><FiGithub /></a>
                     <a href="https://www.linkedin.com/in/hamza-ali-khan-5781b0200/" aria-label="LinkedIn"><SiLinkedin /></a>
                 </div>
 
