@@ -13,6 +13,7 @@ import { navLinks } from '../constant';
 
 const Navbar: React.FC<{ page: string }> = ({ page }) => {
     const [open, setOpen] = useState(false);
+
     return (
         <nav className="sticky top-0 z-50 w-full backdrop-blur-md
                     bg-white/80 dark:bg-gray-900/80 border-b border-gray-200/30
