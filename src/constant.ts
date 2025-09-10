@@ -117,7 +117,7 @@ export const experiences = [
     {
         company: 'Rehani Soko',
         logo: '/rehani.jpg',
-        position: 'Full Stack Developer',
+        position: 'Software Engineer',
         employmentType: 'Full Time',
         periods: ['Feb 2023 - Present'],
         location: '57 N St NW, Washington DC (Remote)',
@@ -146,7 +146,7 @@ export const experiences = [
     {
         company: 'MyAsk AI',
         logo: 'https://owais142002.github.io/assets/img/myaskai.jpg',
-        position: 'Full Stack Developer (Remote)',
+        position: 'Software Engineer (Remote)',
         employmentType: 'Part Time',
         periods: ['Sep 2023 - Dec 2023'],
         location: 'London, England (Remote)',
@@ -158,7 +158,7 @@ export const experiences = [
     {
         company: 'CrossWing Inc.',
         logo: 'https://owais142002.github.io/assets/img/crosswing.jpg',
-        position: 'Full Stack Developer (Remote)',
+        position: 'Software Engineer / ML Engineer (Remote)',
         employmentType: 'Full Time',
         periods: ['Dec 2022 - Nov 2023'],
         location: '238 Wellington St E Suite 214, Aurora, ON L4G 1J5, Canada (Remote)',
