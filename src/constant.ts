@@ -282,7 +282,7 @@ export const comps: Competition[] = [
     {
         title: 'Solana Breakout Hackathon',
         dates: '14 Apr 2025 - 16 May 2025',
-        thumbnail: '/aichatbot.webp',
+        thumbnail: 'https://static.narrative-violation.com/XWfwUR9W6LpvJ8Fc_M-JC',
 
         organizer: { name: 'Colosseum', href: 'https://www.colosseum.com/breakout?ref=blog.colosseum.com' },
         project: 'Agent Arc',
