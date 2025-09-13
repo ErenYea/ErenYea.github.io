@@ -278,5 +278,19 @@ export const comps: Competition[] = [
             { label: 'View Submission', href: 'https://lablab.ai/event/co-creating-with-gpt-5/aignitivex/f1gpt-formula-one-ai-chatbot' },
             { label: 'View Demo', href: 'https://rag-f1gpt-chatbot-nextjs-production.up.railway.app/' },
         ],
+    },
+    {
+        title: 'Solana Breakout Hackathon',
+        dates: '14 Apr 2025 - 16 May 2025',
+        thumbnail: '/aichatbot.webp',
+
+        organizer: { name: 'Colosseum', href: 'https://www.colosseum.com/breakout?ref=blog.colosseum.com' },
+        project: 'Agent Arc',
+        description: 'Agent Arc is a non-custodial AI trading terminal that only charges you if it makes you money. Powered by neural networks and LLMs, it analyzes markets 24/7, executes trades on your account, and adapts to changing conditions in real time.',
+        links: [
+            { label: 'View Project', href: 'https://beta.agentarc.ai/' },
+            { label: 'View Submission', href: 'https://arena.colosseum.org/projects/explore/agent-arc?previous=L2hhY2thdGhvbi9oYWxsLW9mLWZhbWU' },
+            { label: 'View Demo', href: 'https://www.loom.com/share/9c8eb8540d0142e1a944329b9df7d0ca?sid=92baedac-5fe6-4474-9b00-577966ffbb21' },
+        ],
     }
 ];
